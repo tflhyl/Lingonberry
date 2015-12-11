@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B811E421C1B056F0007138B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B811E411C1B056F0007138B /* main.m */; };
+		8B811E451C1B056F0007138B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B811E441C1B056F0007138B /* AppDelegate.m */; };
+		8B811E471C1B056F0007138B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B811E461C1B056F0007138B /* Assets.xcassets */; };
+		8B811E4A1C1B056F0007138B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B811E481C1B056F0007138B /* LaunchScreen.storyboard */; };
+		8B811E551C1B056F0007138B /* Lingonberry_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B811E541C1B056F0007138B /* Lingonberry_exampleTests.m */; };
+		8B811E601C1B056F0007138B /* Lingonberry_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B811E5F1C1B056F0007138B /* Lingonberry_exampleUITests.m */; };
+		8B811E701C1B06100007138B /* LNBSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B811E6F1C1B06100007138B /* LNBSlider.m */; };
+		8B811E741C1B08D60007138B /* LNBEXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B811E731C1B08D60007138B /* LNBEXViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B811E511C1B056F0007138B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B811E351C1B056E0007138B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B811E3C1C1B056E0007138B;
+			remoteInfo = "Lingonberry-example";
+		};
+		8B811E5C1C1B056F0007138B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B811E351C1B056E0007138B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B811E3C1C1B056E0007138B;
+			remoteInfo = "Lingonberry-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B811E3D1C1B056F0007138B /* Lingonberry-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lingonberry-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B811E411C1B056F0007138B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B811E431C1B056F0007138B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B811E441C1B056F0007138B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B811E461C1B056F0007138B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B811E491C1B056F0007138B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B811E4B1C1B056F0007138B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B811E501C1B056F0007138B /* Lingonberry-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lingonberry-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B811E541C1B056F0007138B /* Lingonberry_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lingonberry_exampleTests.m; sourceTree = "<group>"; };
+		8B811E561C1B056F0007138B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B811E5B1C1B056F0007138B /* Lingonberry-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lingonberry-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B811E5F1C1B056F0007138B /* Lingonberry_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lingonberry_exampleUITests.m; sourceTree = "<group>"; };
+		8B811E611C1B056F0007138B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B811E6E1C1B06100007138B /* LNBSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNBSlider.h; path = ../Sources/LNBSlider.h; sourceTree = "<group>"; };
+		8B811E6F1C1B06100007138B /* LNBSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNBSlider.m; path = ../Sources/LNBSlider.m; sourceTree = "<group>"; };
+		8B811E711C1B06E60007138B /* LNBSliderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNBSliderDelegate.h; path = ../Sources/LNBSliderDelegate.h; sourceTree = "<group>"; };
+		8B811E721C1B08D60007138B /* LNBEXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNBEXViewController.h; sourceTree = "<group>"; };
+		8B811E731C1B08D60007138B /* LNBEXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNBEXViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B811E3A1C1B056E0007138B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B811E4D1C1B056F0007138B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B811E581C1B056F0007138B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B811E341C1B056E0007138B = {
+			isa = PBXGroup;
+			children = (
+				8B811E6D1C1B058F0007138B /* Sources */,
+				8B811E3F1C1B056F0007138B /* Lingonberry-example */,
+				8B811E531C1B056F0007138B /* Lingonberry-exampleTests */,
+				8B811E5E1C1B056F0007138B /* Lingonberry-exampleUITests */,
+				8B811E3E1C1B056F0007138B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B811E3E1C1B056F0007138B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B811E3D1C1B056F0007138B /* Lingonberry-example.app */,
+				8B811E501C1B056F0007138B /* Lingonberry-exampleTests.xctest */,
+				8B811E5B1C1B056F0007138B /* Lingonberry-exampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B811E3F1C1B056F0007138B /* Lingonberry-example */ = {
+			isa = PBXGroup;
+			children = (
+				8B811E431C1B056F0007138B /* AppDelegate.h */,
+				8B811E441C1B056F0007138B /* AppDelegate.m */,
+				8B811E721C1B08D60007138B /* LNBEXViewController.h */,
+				8B811E731C1B08D60007138B /* LNBEXViewController.m */,
+				8B811E461C1B056F0007138B /* Assets.xcassets */,
+				8B811E481C1B056F0007138B /* LaunchScreen.storyboard */,
+				8B811E4B1C1B056F0007138B /* Info.plist */,
+				8B811E401C1B056F0007138B /* Supporting Files */,
+			);
+			path = "Lingonberry-example";
+			sourceTree = "<group>";
+		};
+		8B811E401C1B056F0007138B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B811E411C1B056F0007138B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B811E531C1B056F0007138B /* Lingonberry-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B811E541C1B056F0007138B /* Lingonberry_exampleTests.m */,
+				8B811E561C1B056F0007138B /* Info.plist */,
+			);
+			path = "Lingonberry-exampleTests";
+			sourceTree = "<group>";
+		};
+		8B811E5E1C1B056F0007138B /* Lingonberry-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B811E5F1C1B056F0007138B /* Lingonberry_exampleUITests.m */,
+				8B811E611C1B056F0007138B /* Info.plist */,
+			);
+			path = "Lingonberry-exampleUITests";
+			sourceTree = "<group>";
+		};
+		8B811E6D1C1B058F0007138B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B811E6E1C1B06100007138B /* LNBSlider.h */,
+				8B811E6F1C1B06100007138B /* LNBSlider.m */,
+				8B811E711C1B06E60007138B /* LNBSliderDelegate.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B811E3C1C1B056E0007138B /* Lingonberry-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B811E641C1B056F0007138B /* Build configuration list for PBXNativeTarget "Lingonberry-example" */;
+			buildPhases = (
+				8B811E391C1B056E0007138B /* Sources */,
+				8B811E3A1C1B056E0007138B /* Frameworks */,
+				8B811E3B1C1B056E0007138B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lingonberry-example";
+			productName = "Lingonberry-example";
+			productReference = 8B811E3D1C1B056F0007138B /* Lingonberry-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B811E4F1C1B056F0007138B /* Lingonberry-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B811E671C1B056F0007138B /* Build configuration list for PBXNativeTarget "Lingonberry-exampleTests" */;
+			buildPhases = (
+				8B811E4C1C1B056F0007138B /* Sources */,
+				8B811E4D1C1B056F0007138B /* Frameworks */,
+				8B811E4E1C1B056F0007138B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B811E521C1B056F0007138B /* PBXTargetDependency */,
+			);
+			name = "Lingonberry-exampleTests";
+			productName = "Lingonberry-exampleTests";
+			productReference = 8B811E501C1B056F0007138B /* Lingonberry-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B811E5A1C1B056F0007138B /* Lingonberry-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B811E6A1C1B056F0007138B /* Build configuration list for PBXNativeTarget "Lingonberry-exampleUITests" */;
+			buildPhases = (
+				8B811E571C1B056F0007138B /* Sources */,
+				8B811E581C1B056F0007138B /* Frameworks */,
+				8B811E591C1B056F0007138B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B811E5D1C1B056F0007138B /* PBXTargetDependency */,
+			);
+			name = "Lingonberry-exampleUITests";
+			productName = "Lingonberry-exampleUITests";
+			productReference = 8B811E5B1C1B056F0007138B /* Lingonberry-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B811E351C1B056E0007138B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Theodore Felix Leo";
+				TargetAttributes = {
+					8B811E3C1C1B056E0007138B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8B811E4F1C1B056F0007138B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8B811E3C1C1B056E0007138B;
+					};
+					8B811E5A1C1B056F0007138B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8B811E3C1C1B056E0007138B;
+					};
+				};
+			};
+			buildConfigurationList = 8B811E381C1B056E0007138B /* Build configuration list for PBXProject "Lingonberry-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B811E341C1B056E0007138B;
+			productRefGroup = 8B811E3E1C1B056F0007138B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B811E3C1C1B056E0007138B /* Lingonberry-example */,
+				8B811E4F1C1B056F0007138B /* Lingonberry-exampleTests */,
+				8B811E5A1C1B056F0007138B /* Lingonberry-exampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B811E3B1C1B056E0007138B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B811E471C1B056F0007138B /* Assets.xcassets in Resources */,
+				8B811E4A1C1B056F0007138B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B811E4E1C1B056F0007138B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B811E591C1B056F0007138B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B811E391C1B056E0007138B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B811E741C1B08D60007138B /* LNBEXViewController.m in Sources */,
+				8B811E451C1B056F0007138B /* AppDelegate.m in Sources */,
+				8B811E701C1B06100007138B /* LNBSlider.m in Sources */,
+				8B811E421C1B056F0007138B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B811E4C1C1B056F0007138B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B811E551C1B056F0007138B /* Lingonberry_exampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B811E571C1B056F0007138B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B811E601C1B056F0007138B /* Lingonberry_exampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B811E521C1B056F0007138B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B811E3C1C1B056E0007138B /* Lingonberry-example */;
+			targetProxy = 8B811E511C1B056F0007138B /* PBXContainerItemProxy */;
+		};
+		8B811E5D1C1B056F0007138B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B811E3C1C1B056E0007138B /* Lingonberry-example */;
+			targetProxy = 8B811E5C1C1B056F0007138B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B811E481C1B056F0007138B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B811E491C1B056F0007138B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B811E621C1B056F0007138B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B811E631C1B056F0007138B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B811E651C1B056F0007138B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lingonberry-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tflhyl.Lingonberry-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B811E661C1B056F0007138B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lingonberry-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tflhyl.Lingonberry-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B811E681C1B056F0007138B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lingonberry-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tflhyl.Lingonberry-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lingonberry-example.app/Lingonberry-example";
+			};
+			name = Debug;
+		};
+		8B811E691C1B056F0007138B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lingonberry-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tflhyl.Lingonberry-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lingonberry-example.app/Lingonberry-example";
+			};
+			name = Release;
+		};
+		8B811E6B1C1B056F0007138B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lingonberry-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tflhyl.Lingonberry-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lingonberry-example";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8B811E6C1C1B056F0007138B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lingonberry-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tflhyl.Lingonberry-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lingonberry-example";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B811E381C1B056E0007138B /* Build configuration list for PBXProject "Lingonberry-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B811E621C1B056F0007138B /* Debug */,
+				8B811E631C1B056F0007138B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B811E641C1B056F0007138B /* Build configuration list for PBXNativeTarget "Lingonberry-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B811E651C1B056F0007138B /* Debug */,
+				8B811E661C1B056F0007138B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B811E671C1B056F0007138B /* Build configuration list for PBXNativeTarget "Lingonberry-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B811E681C1B056F0007138B /* Debug */,
+				8B811E691C1B056F0007138B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B811E6A1C1B056F0007138B /* Build configuration list for PBXNativeTarget "Lingonberry-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B811E6B1C1B056F0007138B /* Debug */,
+				8B811E6C1C1B056F0007138B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B811E351C1B056E0007138B /* Project object */;
+}
