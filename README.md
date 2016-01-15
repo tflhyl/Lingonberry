@@ -20,4 +20,4 @@ Using Cocoapods:
 
 ## License
 
-Released under the [MIT License](https://github.com/tflhyl/nakafurano/blob/master/LICENSE.md)
+Released under the [MIT License](https://github.com/tflhyl/Lingonberry/blob/master/LICENSE.md)
