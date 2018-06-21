@@ -20,12 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor redColor];
     
     LNBSlider *slider = [[LNBSlider alloc] initWithNumberOfNodes:8];
     slider.translatesAutoresizingMaskIntoConstraints = NO;
-    [slider setMinimumTrackTintColor:[UIColor colorWithRed:0.78 green:0.16 blue:0.25 alpha:1.0]];
-    [slider setMaximumTrackTintColor:[UIColor lightGrayColor]];
+//    [slider setMinimumTrackTintColor:[UIColor colorWithRed:0.78 green:0.16 blue:0.25 alpha:1.0]];
+    [slider setMinimumTrackTintColor:[UIColor blueColor]];
+    [slider setMaximumTrackTintColor:[UIColor blackColor]];
     slider.value = 5;
+    [slider addTarget:self action:@selector(didChangeSliderValue:) forControlEvents:UIControlEventValueChanged];
     
     [self.view addSubview:slider];
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:slider attribute:NSLayoutAttributeTop
@@ -84,12 +87,20 @@
 
 - (void)tapMaxButton:(id)sender {
     self.slider.value = 7;
+    NSLog(@"Selected value: %lu", (unsigned long)self.slider.value);
+    self.label.text = [NSString stringWithFormat:@"Selected value: %lu", (unsigned long)self.slider.value];
 }
 
 #pragma mark - LNBSliderDelegate
 
 - (void)slider:(LNBSlider *)slider didSelectValue:(NSUInteger)value {
     NSLog(@"Selected value: %lu", (unsigned long)value);
+//    self.label.text = [NSString stringWithFormat:@"Selected value: %lu", (unsigned long)value];
+}
+
+- (void)didChangeSliderValue:(UISlider *)slider {
+    int value = (int)roundf(slider.value);
+    NSLog(@"Did change value: %lu", (unsigned long)value);
     self.label.text = [NSString stringWithFormat:@"Selected value: %lu", (unsigned long)value];
 }
 
